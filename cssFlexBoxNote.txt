@@ -1,0 +1,50 @@
+1. Main size -> horizontal length
+2. Cross size -> veritical length
+3. Flex container is big box inside it we have a multiple flex items
+
+        ----------------------------------------------------
+        |                                                   |
+        |                                                   |
+        |                                                   |
+        |                                                   |
+        -----------------------------------------------------
+left veritical line is called main start, while right one is main end
+same thing with the above horizontal line is called Cross start and below one called Cross end.
+
+while direction is horizontal main axis is horizonhorizontal and tal and cross axis is veritical in nature
+
+flex box default direction is horizontal
+
+to make any container flexbox we initialize it with display: flex; 
+
+flexbox properties
+
+flex-direction: row by default and column we can give;
+there is row- reverse and column reverse will reverse the order of 1,2,3,4
+
+justify-content: flex-start , flex-end and centre 
+
+align-item: centre flex-end , flex-start 
+
+both justify-content in horizontal and align-item move the items in vertical manner 
+
+use console to check the other properties, very useful
+
+another property of flex container is flex-wrap : wrap it will make it responsive in nature
+
+flex-flow : column wrap; here we can give the 2 properties at the same time flex-direction and flex-wrap
+
+flex-item properties
+
+first make an different class for different flex-item so that you can see the 
+differences
+
+order: 3 -> if we assign the order to any item then it will come last in order
+suppose we give item1 order of 3 and item2 order of 4 then item will come last
+
+flex-grow: 1 by default but we can change it and it will increase the width of it. we can give the value in decimals also
+
+flex-shrink: 2 -> when we shrink the page layout in then on item on which it is applied will shrink the most in comparision to others
+
+align-self: centre it will disregard the properties set by flex-box container
+will behave according to align-self
